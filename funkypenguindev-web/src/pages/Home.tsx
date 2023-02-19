@@ -30,9 +30,7 @@ export default function Home() {
                                     any apps listed below, or for any other
                                     enquiries, please do not hesitate to contact
                                     me at
-                                    <a href="mailto:nialldev9@gmail.com">
-                                        nialldev9@gmail.com
-                                    </a>
+                                    <a href="mailto:nialldev9@gmail.com"> nialldev9@gmail.com </a>
                                 </p>
                             </Col>
                         </Row>
