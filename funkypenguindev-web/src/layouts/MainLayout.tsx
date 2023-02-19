@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation";
+import Container from 'react-bootstrap/Container';
 
 interface LayoutProps {
     darkModeEnabled?: boolean;

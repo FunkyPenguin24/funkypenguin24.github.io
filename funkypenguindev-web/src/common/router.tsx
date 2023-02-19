@@ -1,6 +1,5 @@
 import Home from '../pages/Home';
 import About from '../pages/About';
-import Projects from '../pages/Projects';
 import Overview from '../pages/Overview';
 import Downloads from '../pages/Downloads';
 import Policies from '../pages/Policies';
@@ -15,10 +14,6 @@ export function initRouteTreeForProvider(){
         {
             path: "about",
             element: <About />,
-        },
-        {
-            path: "projects",
-            element: <Projects />,
         },
         {
             path: "projects/overview",
