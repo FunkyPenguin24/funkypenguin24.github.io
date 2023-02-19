@@ -1,0 +1,24 @@
+# Logs
+funkypenguindev-web/logs
+funkypenguindev-web/*.log
+funkypenguindev-web/npm-debug.log*
+funkypenguindev-web/yarn-debug.log*
+funkypenguindev-web/yarn-error.log*
+funkypenguindev-web/pnpm-debug.log*
+funkypenguindev-web/lerna-debug.log*
+
+funkypenguindev-web/node_modules
+funkypenguindev-web/dist
+funkypenguindev-web/dist-ssr
+funkypenguindev-web/*.local
+
+# Editor directories and files
+funkypenguindev-web/.vscode/*
+funkypenguindev-web/!.vscode/extensions.json
+funkypenguindev-web/.idea
+funkypenguindev-web/.DS_Store
+funkypenguindev-web/*.suo
+funkypenguindev-web/*.ntvs*
+funkypenguindev-web/*.njsproj
+funkypenguindev-web/*.sln
+funkypenguindev-web/*.sw?
