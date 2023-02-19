@@ -3,6 +3,8 @@ import { RouterProvider } from "react-router-dom";
 import { initRouteTreeForProvider } from "./common/router";
 import MainLayout from "./layouts/MainLayout";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
     const [darkModeEnabled, setDarkModeEnabled] = useState(false);
     const routerForProvider = initRouteTreeForProvider();

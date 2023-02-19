@@ -1,3 +1,5 @@
+import Navigation from "../components/Navigation";
+
 interface LayoutProps {
     darkModeEnabled?: boolean;
     children: JSX.Element | JSX.Element[];
@@ -8,8 +10,12 @@ const MainLayout: React.FC<LayoutProps> = ({ darkModeEnabled, children }) => {
     return (
         <>
             <div>
-                <header>Nav to go here</header>
-                <main>{children}</main>
+                <header>
+                    <Navigation darkmode={darkModeEnabled} />
+                </header>
+                <main>
+                    {children}
+                </main>
             </div>
         </>
     );
