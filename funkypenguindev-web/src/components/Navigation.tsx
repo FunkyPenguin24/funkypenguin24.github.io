@@ -19,8 +19,6 @@ const Navigation: React.FC<NavbarProps> = ({darkmode}) => {
             <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item href="/projects/overview">Overview</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects/downloads">Downloads</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="/projects/policies">Policies</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>

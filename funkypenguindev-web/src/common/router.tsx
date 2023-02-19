@@ -1,7 +1,6 @@
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Overview from '../pages/Overview';
-import Downloads from '../pages/Downloads';
 import Policies from '../pages/Policies';
 import {createBrowserRouter} from 'react-router-dom'
 
@@ -19,10 +18,6 @@ export function initRouteTreeForProvider(){
             path: "projects/overview",
             element: <Overview />
         },
-        {
-            path: "projects/downloads",
-            element: <Downloads />
-        }, 
         {
             path: "projects/policies",
             element: <Policies />,
