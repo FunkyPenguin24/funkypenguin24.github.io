@@ -7,31 +7,18 @@ export default function Home() {
         <>
             <div>
                 <Container style={{ textAlign: "center" }}>
-                    <h1 style={{ margin: "1.5em" }}>Niall's projects</h1>
+                    <h1 style={{ margin: "1.5em" }}>Niall's portfolio</h1>
                     <div>
                         <Row className="justify-content-md-center">
                             <Col lg="8">
                                 <h5>
-                                    This website is used to show off my
-                                    projects. Feel free to browse and download
-                                    anything you'd like, they're all free! You
-                                    can also access the source code on some of
-                                    them if you'd like to see what's behind the
-                                    magic.
+                                    This website is used to show off <a href="/projects/overview">my projects</a>.
+                                    I have developed these apps in my spare time in an effort to expand my knowledge of different programming languages and frameworks outside of my job.
+                                    Some of the applications I have developer on behalf of the North Yorkshire Scouting Association and are for use of their county events.
+                                    Please browse and download anything you'd like, they're all free! Any reviews or bits of feedback are greatly appreciated.
+                                    You can also access the source code on some of them if you'd like to see what's behind the magic.
+                                    If you have any queries, please do not hesitate to contact me at <a href="mailto:nialldev9@gmail.com">nialldev9@gmail.com</a>
                                 </h5>
-                                <br />
-                                <p>
-                                    Note: mobile applications are currently only
-                                    available on the Google Play Store. This is
-                                    because it costs me $99/year to host apps on
-                                    the Apple store, a cost which I can't
-                                    justify for something that's just a hobby.
-                                    If you are on an iOS device and would like
-                                    any apps listed below, or for any other
-                                    enquiries, please do not hesitate to contact
-                                    me at
-                                    <a href="mailto:nialldev9@gmail.com"> nialldev9@gmail.com </a>
-                                </p>
                             </Col>
                         </Row>
                     </div>
